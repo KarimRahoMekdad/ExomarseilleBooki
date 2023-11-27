@@ -1,0 +1,152 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+/* ::::::::::::::::::::::::::::::::::::::::header::::::::::::::::::::::::::::::::::::::::::: */
+
+header {
+    width: 100%;
+    height: fit-content;
+    /* background-color: lightgray; */
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.BOOKI {
+    height: 1.5rem;
+    padding: 1.75rem 0 1.75rem;
+    border: solid transparent;
+}
+
+.Paged {
+    display: flex;
+    align-content: center;
+}
+.Page {
+    padding: 2rem;
+    height: 1rem;
+    text-decoration: none;
+    color: black;
+    border-top: solid transparent;
+    border-bottom: solid transparent;
+}
+
+.Page:hover {
+    color: #0065FC;
+    border-top: #0065FC solid;
+}
+
+/* ::::::::::::::::::::::::::::::::::::::::main::::::::::::::::::::::::::::::::::::::::::: */
+
+main {
+    width: 97.5%;
+    padding-left: 2.5%;
+}
+
+h1 {
+    font-size: x-large;
+    margin: 0;
+}
+
+.para {
+    margin: 0.5rem 0rem 1rem 0rem ;
+}
+
+.Barre {
+    /* padding-left: 5%; */
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.Marker {
+    background-color: lightgray;
+    padding: 0.75rem;
+    border-radius: 10px 0px 0px 10px;
+    height: 1rem;
+}
+
+.type {
+    border: lightgray 0.05rem;
+    border-style: solid none;
+    padding: 0.5rem 3rem 0.5rem 0.5rem;
+}
+
+.Recherche {
+    color: white;
+    background-color: #0065FC;
+    padding: 0.5rem;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+
+.Filtres {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.gras {
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin:  0rem 1rem 0rem 1rem;
+}
+
+.Lofi {
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.25rem 0.5rem 0.5rem;
+    border-radius: 10px 0px 0px 10px;
+    border: lightgray 0.05rem solid;
+    margin-top: 0.5rem;
+}
+
+.pfil {
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.25rem;
+    margin: 0;
+    border-radius: 0px 10px 10px 0px;
+    border: lightgray 0.05rem solid;
+}
+
+/* ::::::::::::::::::::::::::::::::::::::::footer::::::::::::::::::::::::::::::::::::::::::: */
+
+footer {
+    width: 100%;
+}
+
+/* ::::::::::::::::::::::::::::::::::::::::mediaquerries::::::::::::::::::::::::::::::::::::::::::: */
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 426px) {
+
+}
