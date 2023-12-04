@@ -49,8 +49,8 @@ nav {
 /* ::::::::::::::::::::::::::::::::::::::::main::::::::::::::::::::::::::::::::::::::::::: */
 
 main {
-    width: 97.5%;
-    padding-left: 2.5%;
+    width: 95%;
+    padding: 0 2.5%;
 }
 
 h1 {
@@ -80,6 +80,7 @@ h1 {
     border: lightgray 0.05rem;
     border-style: solid none;
     padding: 0.5rem 3rem 0.5rem 0.5rem;
+    font-weight: bold;
 }
 
 .Recherche {
@@ -93,11 +94,11 @@ h1 {
 .Filtres {
     display: flex;
     flex-wrap: wrap;
-    
+    margin: 1rem 0;
 }
 
 .gras {
-    font-weight: 600;
+    font-weight: bold;
 }
 
 ul {
@@ -106,7 +107,7 @@ ul {
     flex-wrap: wrap;
     align-content: center;
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 0.5rem;
 }
 
 li {
@@ -115,24 +116,149 @@ li {
     align-content: center;
     justify-content: center;
     margin:  0rem 1rem 0rem 1rem;
+    border-radius: 20px 20px 20px 20px;
+    border: lightgray 0.05rem solid;
+}
+
+li:hover {
+    background:#0065fc40;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .Lofi {
     height: 1rem;
+    width: 1rem;
     display: flex;
     align-items: center;
-    padding: 0.5rem 0.25rem 0.5rem 0.5rem;
-    border-radius: 10px 0px 0px 10px;
+    padding: 0.75rem 0.25rem 0.75rem 0.75rem;
+    /* border-radius: 20px 0px 0px 20px;
     border: lightgray 0.05rem solid;
-    margin-top: 0.5rem;
+    border-right: transparent; */
 }
 
 .pfil {
+    height: 1rem;
     margin-top: 0.5rem;
-    padding: 0.5rem 0.5rem 0.5rem 0.25rem;
+    padding: 0.6rem 0.75rem 0.25rem 0.25rem;
     margin: 0;
-    border-radius: 0px 10px 10px 0px;
+    /* border-radius: 0px 20px 20px 0px;
     border: lightgray 0.05rem solid;
+    border-left: transparent; */
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ibleu {
+    font-weight: bold;
+    width: 1rem;
+    height: 1rem;
+    color: #0065FC;
+    border-radius: 70%;
+    border: solid lightgray 0.05rem;
+    margin-right: 0.75rem;
+    padding: 0.1rem ;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* section1+2 */
+.sect12 {
+    height: fit-content;
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h2 {
+    width: 100%;
+    font-size: large;
+    margin: 0 0 0 2.5rem;
+
+}
+.sect1 {
+    height: 75vh;
+    width: 62.5vw;
+    margin: 0 0 2rem 0;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    border-radius: 20px;
+}
+
+.art1 {
+    height: 26vh;
+    width: 17vw;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0.2rem;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+}
+
+.hôtel1 {
+    height: 17vh;
+    width: 17vw;
+    border-radius: 20px 20px 0 0;
+}
+
+.sect2 {
+    height: 75vh;
+    width: 30vw;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly;
+    border-radius: 20px;
+}
+
+.art2 {
+    height: 14vh;
+    width: 25vw;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hôtel2 {
+    height: 14vh;
+    width: 10vw;
+}
+
+.atitre {
+    font-size: large;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.1rem 0 0.1rem 1rem;
+}
+
+.Nuit {
+    margin: 0;
+    padding: 0.1rem 0 0.1rem 1rem;
+}
+
+.affplus {
+    width: 62.5vw;
+    margin: 0 0 0 2.5rem;
+    font-weight: bold;
+}
+
+.posta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+}
+
+.stat {
+    background-color: #F2F2F2;
 }
 
 /* ::::::::::::::::::::::::::::::::::::::::footer::::::::::::::::::::::::::::::::::::::::::: */
